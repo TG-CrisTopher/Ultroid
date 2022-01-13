@@ -59,7 +59,7 @@ async def useUltroid(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://telegra.ph/file/54a917cc9dbb94733ea5f.jpg",
+        file="https://telegra.ph/file/bd9b48ba3c5870f88bf4d.jpg",
         buttons=button,
     )
     await eor(rs, f"**[Click Here]({msg.message_link})**")
